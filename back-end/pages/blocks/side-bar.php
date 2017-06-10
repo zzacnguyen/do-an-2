@@ -56,6 +56,7 @@
               ?>
           </ul>
         </li>
+<!--
         <li class="treeview">
           <a href="../tables/index.php?page=tintuc">
             <i class="fa fa-book"></i> <span>Tin tức</span>
@@ -63,6 +64,7 @@
             </span>
           </a>
         </li>
+-->
         <li class="treeview">
           <a href="../tables/index.php?page=lienhe">
             <i class="fa fa-commenting"></i> <span>Liên hệ</span>
