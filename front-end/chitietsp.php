@@ -4,6 +4,25 @@
     $sql = new DongHo();
     $id = isset($_GET["id"])?$_GET["id"]:'';
     $row = $sql->get_row("SELECT * from `chitietsp` join `sanpham` on chitietsp.SP_ID = sanpham.SP_ID join `hinhanh` on chitietsp.HA_ID = hinhanh.HA_ID WHERE `CTSP_ID` = ".$id);
+
+    if(isset($_POST['submit'])){
+        $name = isset($_POST['name'])?$_POST['name']:'';
+        $message = isset($_POST['message'])?$_POST['message']:'';
+        
+        if(!empty($name) || !empty($message)){
+            $query = $sql->insert('danhgiasp', array('DG_TEN'=>''.$name, 'DG_NOIDUNG'=>''.$message));
+            
+            if (isset($query)){
+                echo '<script>
+                    alert("Thêm thành công");
+                </script>';
+            } else {
+                echo '<script>
+                    alert("Thêm thất bại");
+                </script>';
+            }
+        }
+    }
 ?>
 
 <!-- Header  Inner style-->
@@ -36,7 +55,7 @@
                         <?php echo number_format($row['SP_GIA'])?> VND<span>/ SP</span></p>
                 </div>
                 <div class="book-left-content input_form">
-                    <form action="sendemail.php" method="post" id="contactForm">
+                    <form action="#" method="post" id="contactForm">
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 m0 col-xs-12">
                                 <span>Tên của bạn</span>
@@ -52,16 +71,10 @@
                         </div>
                         <div class="row">
                             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                                <button type="submit" class="res-btn">Gửi đánh giá</button>
+                                <input type="submit" class="res-btn" value="Gửi đánh giá" name="submit">
                             </div>
                         </div>
                     </form>
-                    <div id="success">
-                        <p>Your message sent successfully.</p>
-                    </div>
-                    <div id="error">
-                        <p>Something is wrong. Message cant be sent!</p>
-                    </div>
                 </div>
             </div>
         </div>

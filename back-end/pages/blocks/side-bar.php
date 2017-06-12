@@ -56,15 +56,13 @@
               ?>
           </ul>
         </li>
-<!--
         <li class="treeview">
-          <a href="../tables/index.php?page=tintuc">
-            <i class="fa fa-book"></i> <span>Tin tức</span>
+          <a href="../tables/index.php?page=danhgiasp">
+            <i class="fa fa-book"></i> <span>Đánh giá</span>
             <span class="pull-right-container">
             </span>
           </a>
         </li>
--->
         <li class="treeview">
           <a href="../tables/index.php?page=lienhe">
             <i class="fa fa-commenting"></i> <span>Liên hệ</span>

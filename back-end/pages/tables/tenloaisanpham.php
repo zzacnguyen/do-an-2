@@ -32,7 +32,8 @@
                   <th>Giá</th>
                   <th>Giới thiệu</th>
                   <th>Hình ảnh</th>
-                  <th colspan="2">Tác vụ</th>
+                  <th>Tác vụ 1</th>
+                  <th>Tác vụ 2</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -58,7 +59,8 @@
                   <th>Giá</th>
                   <th>Giới thiệu</th>
                   <th>Hình ảnh</th>
-                  <th colspan="2">Tác vụ</th>
+                  <th>Tác vụ 1</th>
+                  <th>Tác vụ 2</th>
                 </tr>
                 </tfoot>
               </table>

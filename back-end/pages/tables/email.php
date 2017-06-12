@@ -28,7 +28,8 @@
                             <tr>
                                 <th>STT</th>
                                 <th>Email</th>
-                                <th colspan="2" style="text-align:center;">Tác vụ</th>
+                                <th>Tác vụ 1</th>
+                                <th>Tác vụ 2</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -50,7 +51,8 @@
                             <tr>
                                 <th>STT</th>
                                 <th>Email</th>
-                                <th colspan="2" style="text-align:center;">Tác vụ</th>
+                                <th>Tác vụ 1</th>
+                                <th>Tác vụ 2</th>
                             </tr>
                         </tfoot>
                     </table>

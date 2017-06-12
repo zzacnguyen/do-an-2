@@ -37,14 +37,15 @@
                                 <th>Kích thước</th>
                                 <th>Chất liệu</th>
                                 <th>Khung</th>
-<!--                                <th>Loại máy</th>-->
+                                <!--                                <th>Loại máy</th>-->
                                 <th>Loại dây</th>
                                 <th>Mặt quay số</th>
-<!--                                <th>Chống nước</th>-->
+                                <!--                                <th>Chống nước</th>-->
                                 <th>Giới tính</th>
                                 <th>Hiển thị</th>
-<!--                                <th>Mô tả</th>-->
-                                <th colspan="2">Tác vụ</th>
+                                <!--                                <th>Mô tả</th>-->
+                                <th>Tác vụ 1</th>
+                                <th>Tác vụ 2</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -81,14 +82,15 @@
                                 <th>Kích thước</th>
                                 <th>Chất liệu</th>
                                 <th>Khung</th>
-<!--                                <th>Loại máy</th>-->
+                                <!--                                <th>Loại máy</th>-->
                                 <th>Loại dây</th>
                                 <th>Mặt quay số</th>
-<!--                                <th>Chống nước</th>-->
+                                <!--                                <th>Chống nước</th>-->
                                 <th>Giới tính</th>
                                 <th>Hiển thị</th>
-<!--                                <th>Mô tả</th>-->
-                                <th colspan="2">Tác vụ</th>
+                                <!--                                <th>Mô tả</th>-->
+                                <th>Tác vụ 1</th>
+                                <th>Tác vụ 2</th>
                             </tr>
                         </tfoot>
                     </table>

@@ -33,7 +33,8 @@
                                 <th>Hình 3</th>
                                 <th>Hình 4</th>
                                 <th>Hình 5</th>
-                                <th colspan="2">Tác vụ</th>
+                                <th>Tác vụ 1</th>
+                                <th>Tác vụ 2</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -62,7 +63,8 @@
                                 <th>Hình 3</th>
                                 <th>Hình 4</th>
                                 <th>Hình 5</th>
-                                <th colspan="2">Tác vụ</th>
+                                <th>Tác vụ 1</th>
+                                <th>Tác vụ 2</th>
                             </tr>
                         </tfoot>
                     </table>

@@ -1,8 +1,8 @@
 <?php 
     if ($page == 'tenloai'){
         include_once '../tables/tenloaisanpham.php';
-    } else if ($page == 'tintuc'){
-        include_once '../tables/tintuc.php';
+    } else if ($page == 'danhgiasp'){
+        include_once '../tables/danhgiasp.php';
     }else if ($page == 'lienhe'){
         include_once '../tables/lienhe.php';
     }else if ($page == 'email'){
