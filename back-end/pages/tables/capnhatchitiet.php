@@ -1,9 +1,11 @@
 <?php 
     $sql = new DongHo();
     $hinhanh = new DongHo();
+    $sanpham = new DongHo();
+
     $id = isset($_GET['id'])?$_GET['id']:'';
     $query = $sql->get_row("SELECT * FROM `chitietsp` WHERE `CTSP_ID` =".$id);
-    $url = $sql->get_list("SELECT * from `sanpham`");      
+    $sanpham = $sanpham->get_list("SELECT * from `sanpham`");      
     
     if(isset($_POST['submit'])){
         
@@ -12,7 +14,7 @@
     $tinhtrang = isset($_POST['tinhtrang'])?$_POST['tinhtrang']:'';
     $bosuutap = isset($_POST['bosuutap'])?$_POST['bosuutap']:'';
     $series = isset($_POST['series'])?$_POST['series']:'';
-    $kichthuoc = isset($_POST['kichthuoc'])?$_POST['series']:'';
+    $kichthuoc = isset($_POST['kichthuoc'])?$_POST['kichthuoc']:'';
     $chatlieu = isset($_POST['chatlieu'])?$_POST['chatlieu']:'';
     $khung = isset($_POST['khung'])?$_POST['khung']:'';
     $loaimay = isset($_POST['loaimay'])?$_POST['loaimay']:'';
@@ -69,7 +71,7 @@
                             <label>Tên sản phẩm</label>
                             <select class="form-control" name="tensp">
                                <?php 
-                                foreach($url as $row){
+                                foreach($sanpham as $row){
                                     if($query['CTSP_ID'] == $row['SP_ID']){
                                         echo '<option value="'.$row['SP_ID'].'">'.$row['SP_TENSP'].'</option>';
                                         break;

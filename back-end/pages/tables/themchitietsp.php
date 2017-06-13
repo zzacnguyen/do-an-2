@@ -1,6 +1,7 @@
 <?php 
-    $sql = new DongHo();
+    $sql = new DongHo(); //m bam nut them chi tiet di
     $hinhanh = new DongHo();
+    $sanpham = new DongHo();
     
     if(isset($_POST['submit'])){
     $tensp = isset($_POST['tensp'])?$_POST['tensp']:'';
@@ -8,7 +9,7 @@
     $tinhtrang = isset($_POST['tinhtrang'])?$_POST['tinhtrang']:'';
     $bosuutap = isset($_POST['bosuutap'])?$_POST['bosuutap']:'';
     $series = isset($_POST['series'])?$_POST['series']:'';
-    $kichthuoc = isset($_POST['kichthuoc'])?$_POST['series']:'';
+    $kichthuoc = isset($_POST['kichthuoc'])?$_POST['kichthuoc']:'';
     $chatlieu = isset($_POST['chatlieu'])?$_POST['chatlieu']:'';
     $khung = isset($_POST['khung'])?$_POST['khung']:'';
     $loaimay = isset($_POST['loaimay'])?$_POST['loaimay']:'';
@@ -64,14 +65,13 @@
                 <form role="form" action="#" method="post" enctype="multipart/form-data">
                     <div class="box-body">
                         <?php 
-                        $sql = $sql->get_list("SELECT * from `sanpham`");
-                        
+                        $sanpham = $sanpham->get_list("SELECT * from `sanpham`");                       
                         ?>
                         <div class="form-group">
                             <label>Tên sản phẩm</label>
                             <select class="form-control" name="tensp">
                                <?php 
-                                foreach($sql as $row){
+                                foreach($sanpham as $row){
                                     echo '<option value="'.$row['SP_ID'].'">'.$row['SP_TENSP'].'</option>';
                                 }
                                 ?>  
@@ -83,7 +83,7 @@
                                <?php 
                                 $hinhanh = $hinhanh->get_list("SELECT * FROM `hinhanh`");
                                 foreach($hinhanh as $row1){
-                                    echo '<option>'.$row1['HA_HINH1'].'</option>';
+                                    echo '<option value="'.$row1['HA_ID'].'">'.$row1['HA_HINH1'].'</option>';
                                 }
                                 ?>  
                             </select>
@@ -125,17 +125,14 @@
                             <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Nhập mặt quay số" name="matquayso">
                         </div>
                         <div class="form-group">
-                            <label>Chống nước</label>
-                            <select class="form-control" name="chongnuoc">
-                    <option>Có</option>
-                    <option>Không</option>
-                  </select>
+                            <label for="exampleInputEmail1">Chống nước</label>
+                            <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Chống nước" name="chongnuoc">
                         </div>
                         <div class="form-group">
                             <label>Giới tính</label>
                             <select class="form-control" name="gioitinh">
-                    <option>Nam</option>
-                    <option>Nữ</option>
+                                <option value="Nam">Nam</option>
+                                <option value="Nữ">Nữ</option>
                   </select>
                         </div>
                         <div class="form-group">
