@@ -1,5 +1,5 @@
 <?php 
-    include_once "dbConnect.php";
+    include_once "front-end/dbConnect.php";
     
     if(isset($_POST['dangky'])){
         $email = isset($_POST['email'])?$_POST['email']:'';
@@ -48,10 +48,10 @@
         <section class="container clearfix footer-pad">
 
             <div class="widget about-us-widget col-md-4 col-sm-6">
-                <a href="index.php"><img src="images/header/logo2.png" alt="" class="img-responsive"></a>
+                <a href="front-end/index.php"><img src="front-end/images/header/logo2.png" alt="" class="img-responsive"></a>
 
                 <p>Làm cuộc sống trở nên đáng sống hơn</p>
-                <a href="gioithieu.php">Đọc thêm <i class="fa fa-angle-double-right"></i></a>
+                <a href="front-end/gioithieu.php">Đọc thêm <i class="fa fa-angle-double-right"></i></a>
                 <ul class="nav">
                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
@@ -67,8 +67,8 @@
                 <h4 class="widget_title">Khám phá</h4>
                 <div class="widget-contact-list">
                     <ul>
-                        <li><a href="baohanh.php">Chính sách bảo hành</a></li>
-                        <li><a href="tintuc.php">Tin tức</a></li>
+                        <li><a href="front-end/baohanh.php">Chính sách bảo hành</a></li>
+                        <li><a href="front-end/tintuc.php">Tin tức</a></li>
 
                     </ul>
                 </div>
@@ -79,9 +79,9 @@
 
                 <div class="widget-contact-list">
                     <ul>
-                        <li><a href="index.php">Trang chủ</a></li>
-                        <li><a href="aboutus.php">Thông tin</a></li>
-                        <li><a href="sanpham.php">Sản phẩm</a></li>
+                        <li><a href="front-end/index.php">Trang chủ</a></li>
+                        <li><a href="front-end/aboutus.php">Thông tin</a></li>
+                        <li><a href="front-end/sanpham.php">Sản phẩm</a></li>
                         <li><a href="../login.php">Quản trị</a></li>
                     </ul>
                 </div>
@@ -121,31 +121,32 @@
             <div class="pull-left fo-txt">
                 <p>Copyright © Watch 2017. Desgin by T.H . </p>
             </div>
+
         </div>
     </section>
 </footer>
 
 <!-- footer  style-->
 
-<script src="js/jquery-2.2.4.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.bxslider.js"></script>
+<script src="front-end/js/jquery-2.2.4.min.js"></script>
+<script src="front-end/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="front-end/js/jquery.bxslider.js"></script>
 <!-- owl carousel  -->
-<script src="vendors/owlcarousel/owl.carousel.min.js"></script>
-<script src="js/jquery.easing.min.js"></script>
-<script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-<script src="js/zebra_datepicker.js"></script>
+<script src="front-end/vendors/owlcarousel/owl.carousel.min.js"></script>
+<script src="front-end/js/jquery.easing.min.js"></script>
+<script src="front-end/js/jquery.mCustomScrollbar.concat.min.js"></script>
+<script src="front-end/js/zebra_datepicker.js"></script>
 <!-- jQuery appear -->
-<script src="vendors/jquery-appear/jquery.appear.js"></script>
+<script src="front-end/vendors/jquery-appear/jquery.appear.js"></script>
 <!-- jQuery countTo -->
-<script src="vendors/jquery-countTo/jquery.countTo.js"></script>
-<script src="js/jquery.form.js"></script>
-<script src="js/jquery.validate.min.js"></script>
-<script src="js/contact.js"></script>
-<script src="js/jquery.mixitup.min.js"></script>
-<script src="js/jquery.fancybox.pack.js"></script>
-<script src="vendors/jquery-ui-1.11.4/jquery-ui.min.js"></script>
-<script src="js/custom.js"></script>
+<script src="front-end/vendors/jquery-countTo/jquery.countTo.js"></script>
+<script src="front-end/js/jquery.form.js"></script>
+<script src="front-end/js/jquery.validate.min.js"></script>
+<script src="front-end/js/contact.js"></script>
+<script src="front-end/js/jquery.mixitup.min.js"></script>
+<script src="front-end/js/jquery.fancybox.pack.js"></script>
+<script src="front-end/vendors/jquery-ui-1.11.4/jquery-ui.min.js"></script>
+<script src="front-end/js/custom.js"></script>
 
 </body>
 
