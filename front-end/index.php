@@ -266,11 +266,10 @@
                 <div class="testimonial-sliders-two">
                     <div class="item">
                         <div class="test-cont">
-                            <p>Vị trí: Nằm trong ngõ.
-                                <br> Phòng: Sạch sẽ, gọn gàng.
+                            <p>Vị trí: Nằm bên ngoài, dễ tìm.
+                                <br> Cửa hàng có nhiều sản phẩm chất lượng, uy tín.
                                 <br> Nhân viên: Thân thiện, ân cần.
-                                <br> Đồ ăn sáng: Chưa đa dạng.
-                                <br> Đáng tiền: Bình thường</p>
+                            </p>
                         </div>
                         <div class="test-bot">
                             <div class="tst-img"><img src="images/testimonials/1.png" alt="" class="img-responsive"></div>
@@ -290,12 +289,12 @@
 
                     <div class="item">
                         <div class="test-cont">
-                            <p>Dịch vụ tại TTTH Cần Thơ tốt. Phòng ở sạch sẽ, nhân viên rất nhiệt tình nhưng bữa ăn sáng buffet chưa được phong phú, món ăn chưa đa dạng</p>
+                            <p>Dịch vụ tại Titanium Watch rất tốt. Có nhiều chương trình khuyến mãi, nhân viên ân cần, tận tụy</p>
                         </div>
                         <div class="test-bot">
                             <div class="tst-img"><img src="images/testimonials/2.png" alt="" class="img-responsive"></div>
                             <div class="client_name">
-                                <h5><a href="testimonials.php">Huỳnh Dung xinh đẹp - <span>Kỹ Thuật Phần Mềm</span></a></h5>
+                                <h5><a href="testimonials.php">Huỳnh Dung - <span>Kỹ Thuật Phần Mềm</span></a></h5>
                                 <ul>
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
                                     <li><a href="#"><i class="fa fa-star"></i></a></li>
@@ -308,7 +307,7 @@
                     </div>
                     <div class="item">
                         <div class="test-cont">
-                            <p> Nhân viên phục vụ nhiệt tình nên tôi rất thích. Hồ bơi nước sạch nhưng hơi bé, Thức ăn sáng ngon</p>
+                            <p> Nhân viên phục vụ nhiệt tình nên tôi rất thích. Nhưng cửa hàng còn thiếu vài sản phẩm mà mình tìm chưa có</p>
                         </div>
                         <div class="test-bot">
                             <div class="tst-img"><img src="images/testimonials/3.png" alt="" class="img-responsive"></div>
@@ -328,7 +327,7 @@
 
                     <div class="item">
                         <div class="test-cont">
-                            <p>Có đầy đủ dịch vụ du lịch trong thành phố. Nhân viên rất nhiệt tình</p>
+                            <p>Có đầy đủ dịch vụ. Nhân viên rất nhiệt tình</p>
                         </div>
                         <div class="test-bot">
                             <div class="tst-img"><img src="images/testimonials/4.png" alt="" class="img-responsive"></div>
@@ -346,7 +345,7 @@
                     </div>
                     <div class="item">
                         <div class="test-cont">
-                            <p>Nhân viên lễ tân hiếu khách, thức ăn sáng khá ngon, ăn tại khách sạn cũng rất ngon với giá khá rẻ. </p>
+                            <p>Mua đồng hồ tại cửa hàng rất yên tâm vì có độ tin cậy và uy tín cao, sản phẩm có bảo hành, đẹp và chất lượng</p>
                         </div>
                         <div class="test-bot">
                             <div class="tst-img"><img src="images/testimonials/5.png" alt="" class="img-responsive"></div>
