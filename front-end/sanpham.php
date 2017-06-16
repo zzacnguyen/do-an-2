@@ -53,7 +53,7 @@
 					<p>'.$row['SP_GIOITHIEU'].'</p>
 					<a href="chitietsp.php?id='.$row['SP_ID'].'" class="read-more">Chi tiết<i class="fa fa-arrow-right"></i></a>
 				</div>
-			</div>	';
+			</div>';
             }
             ?>
         </div>

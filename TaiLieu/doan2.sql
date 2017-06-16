@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 13, 2017 at 05:48 PM
+-- Generation Time: Jun 16, 2017 at 04:02 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `doan1`
+-- Database: `doan2`
 --
 
 -- --------------------------------------------------------
@@ -73,7 +73,8 @@ CREATE TABLE `danhgiasp` (
 
 INSERT INTO `danhgiasp` (`DG_ID`, `DG_TEN`, `DG_NOIDUNG`) VALUES
 (1, 'Nguyễn Trung Việt', 'Đồng hồ đẹp, sẽ mua 30 cái tặng cho sinh viên của mình'),
-(2, 'Hải Đăng', 'Đồng hồ sang trọng, nhân viên phục vụ tốt');
+(2, 'Hải Đăng', 'Đồng hồ sang trọng, nhân viên phục vụ tốt'),
+(3, 'TÍnh Phan', 'Đồng hồ đẹp, nhân viên thân thiện');
 
 -- --------------------------------------------------------
 
@@ -170,6 +171,26 @@ INSERT INTO `sanpham` (`SP_ID`, `SP_TENSP`, `SP_GIA`, `SP_GIOITHIEU`, `SP_HINH`)
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `taikhoan`
+--
+
+CREATE TABLE `taikhoan` (
+  `TK_ID` int(11) NOT NULL,
+  `TK_TAIKHOAN` varchar(16) NOT NULL,
+  `TK_MATKHAU` varchar(16) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `taikhoan`
+--
+
+INSERT INTO `taikhoan` (`TK_ID`, `TK_TAIKHOAN`, `TK_MATKHAU`) VALUES
+(1, 'admin', 'admin'),
+(2, 'admin1', 'admin1');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `tintuc`
 --
 
@@ -230,6 +251,12 @@ ALTER TABLE `sanpham`
   ADD PRIMARY KEY (`SP_ID`);
 
 --
+-- Indexes for table `taikhoan`
+--
+ALTER TABLE `taikhoan`
+  ADD PRIMARY KEY (`TK_ID`);
+
+--
 -- Indexes for table `tintuc`
 --
 ALTER TABLE `tintuc`
@@ -243,12 +270,12 @@ ALTER TABLE `tintuc`
 -- AUTO_INCREMENT for table `chitietsp`
 --
 ALTER TABLE `chitietsp`
-  MODIFY `CTSP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `CTSP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `danhgiasp`
 --
 ALTER TABLE `danhgiasp`
-  MODIFY `DG_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `DG_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `hinhanh`
 --
@@ -269,6 +296,11 @@ ALTER TABLE `nhanemail`
 --
 ALTER TABLE `sanpham`
   MODIFY `SP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+--
+-- AUTO_INCREMENT for table `taikhoan`
+--
+ALTER TABLE `taikhoan`
+  MODIFY `TK_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 --
 -- AUTO_INCREMENT for table `tintuc`
 --

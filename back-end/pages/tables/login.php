@@ -33,19 +33,19 @@
   <div class="login-box-body">
     <p class="login-box-msg">Đăng nhập để vào trang quản lý</p>
 
-    <form action="#" method="post">
+    <form action="pages/tables/check-login.php" method="post">
       <div class="form-group has-feedback">
-        <input type="email" class="form-control" placeholder="Tài khoản">
+        <input type="text" class="form-control" placeholder="Tài khoản" name="taikhoan">
         <span class="glyphicon glyphicon-user form-control-feedback"></span>
       </div>
       <div class="form-group has-feedback">
-        <input type="password" class="form-control" placeholder="Mật khẩu">
+        <input type="password" class="form-control" placeholder="Mật khẩu" name="matkhau">
         <span class="glyphicon glyphicon-lock form-control-feedback"></span>
       </div>
       <div class="row">
         <!-- /.col -->
         <div class="col-xs-4">
-          <input type="submit" class="btn btn-primary btn-block btn-flat" value="Đăng nhập">
+          <input type="submit" class="btn btn-primary btn-block btn-flat" value="Đăng nhập" name="submit">
         </div>
         <!-- /.col -->
       </div>
