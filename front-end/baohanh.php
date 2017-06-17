@@ -4,14 +4,14 @@
     <!-- Header  Inner style-->
     <section class="row final-inner-header">
         <div class="container">
-            <h2 class="this-title">Giới thiệu</h2>
+            <h2 class="this-title">Bảo hành</h2>
         </div>
     </section>
     <section class="row final-breadcrumb">
         <div class="container">
             <ol class="breadcrumb">
-                <li><a href="index2.html">Trang chủ</a></li>
-                <li class="active">Giới thiệu</li>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li class="active">Thông tin bảo hành</li>
             </ol>
         </div>
     </section>

@@ -35,7 +35,7 @@
                             <p data-animation="animated fadeInDown">
                                 Đến với chúng tôi bạn sẽ nhận được những dịch vụ hậu mãi hấp dẫn. Chúng tôi sẽ làm mọi thứ để làm cho bạn trở nên sang trọng và hiện đại nhất.
                             </p>
-                            <a data-animation="animated fadeInLeft" href="gioithieu.php?page=thongtin" class="nhs-btn3">Chi tiết</a>
+                            <a data-animation="animated fadeInLeft" href="sanpham.php?page=sanpham" class="nhs-btn3">Chi tiết</a>
 
                         </div>
                     </div>

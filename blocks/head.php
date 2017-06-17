@@ -8,8 +8,8 @@
         $title = "Bảo hành";
     }else if ($page == 'sanpham'){
         $title = "Sản phẩm";
-    }else if ($page == 'tintuc'){
-        $title = "Tin tức";
+    }else if ($page == 'hoidap'){
+        $title = "Hỏi - Đáp";
     }else {
         $title = "Trang chủ";
     }
@@ -170,6 +170,10 @@
 <!--                    <li><a href="tintuc.php?page=tintuc">TIN TỨC</a></li>-->
                     <li>
                         <a href="front-end/lienhe.php?page=lienhe">Liên hệ</a>
+                    </li>
+                    
+                       <li>
+                        <a href="front-end/hoidap.php?page=hoidap">Hỏi - Đáp</a>
                     </li>
                 </ul>
                 <ul class="nav navbar-nav right-side-nav">
