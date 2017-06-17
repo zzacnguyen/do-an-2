@@ -82,6 +82,7 @@
                         <li><a href="index.php">Trang chủ</a></li>
                         <li><a href="aboutus.php">Thông tin</a></li>
                         <li><a href="sanpham.php">Sản phẩm</a></li>
+                        <li><a href="hoidap.php">Hỏi - Đáp</a></li>
                         <li><a href="../login.php">Quản trị</a></li>
                     </ul>
                 </div>
