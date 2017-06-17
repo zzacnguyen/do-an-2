@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 16, 2017 at 04:02 PM
+-- Generation Time: Jun 17, 2017 at 06:44 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -74,7 +74,8 @@ CREATE TABLE `danhgiasp` (
 INSERT INTO `danhgiasp` (`DG_ID`, `DG_TEN`, `DG_NOIDUNG`) VALUES
 (1, 'Nguyễn Trung Việt', 'Đồng hồ đẹp, sẽ mua 30 cái tặng cho sinh viên của mình'),
 (2, 'Hải Đăng', 'Đồng hồ sang trọng, nhân viên phục vụ tốt'),
-(3, 'TÍnh Phan', 'Đồng hồ đẹp, nhân viên thân thiện');
+(3, 'TÍnh Phan', 'Đồng hồ đẹp, nhân viên thân thiện'),
+(4, 'Thái Ngọc Huy', 'Sản phẩm sang trọng, hoàn thiện tỉ mỉ');
 
 -- --------------------------------------------------------
 
@@ -122,7 +123,8 @@ CREATE TABLE `lienhe` (
 INSERT INTO `lienhe` (`LH_ID`, `LH_TEN`, `LH_EMAIL`, `LH_TIEUDE`, `LH_NOIDUNG`) VALUES
 (2, 'Nguyễn ĐÔng Tường', 'Test', 'Test', 'Test test'),
 (3, 'Thái Ngọc Huy', 'huymap@gmail.com', 'Bán web không', 'NHận làm web không bạn'),
-(4, 'Ngô Quốc Thịnh', 'nqthinh19996@gmail.com', 'Thực tập', 'Cửa hàng có nhận thực tập sinh quản trị website không?');
+(4, 'Ngô Quốc Thịnh', 'nqthinh19996@gmail.com', 'Thực tập', 'Cửa hàng có nhận thực tập sinh quản trị website không?'),
+(5, 'Lưu Trường Hải Lân', 'lthlan@gmail.com', 'Yêu cầu đồng hồ', 'Hiện tại mình cần mua đồng hồ Rolex Gemini nhưng chưa thấy cửa hàng nào cung cấp, shop có nhận order sản phẩm không?');
 
 -- --------------------------------------------------------
 
@@ -142,7 +144,8 @@ CREATE TABLE `nhanemail` (
 INSERT INTO `nhanemail` (`EMAIL_ID`, `EMAIL_TEN`) VALUES
 (1, 'ndtuong.ktpm0114@student.ctuet.edu.vn'),
 (2, 'tnhuy.ktpm0114@student.ctuet.edu.vn'),
-(3, 'pvtinh.ktpm0114@student.ctuet.vn');
+(3, 'pvtinh.ktpm0114@student.ctuet.vn'),
+(5, 'tnhuy.ktpm0114@student.ctuet.edu.vn');
 
 -- --------------------------------------------------------
 
@@ -166,7 +169,7 @@ INSERT INTO `sanpham` (`SP_ID`, `SP_TENSP`, `SP_GIA`, `SP_GIOITHIEU`, `SP_HINH`)
 (1, 'Rolex Day Date President', 557000000, 'Rolex Day Date President Day Date 118235 CHODRP (LIKE NEW 99%)', 'daydate-president-1.jpg'),
 (2, 'Rolex Oyster Perpetual', 730000000, 'Rolex Oyster Perpetual Day-Date Automatic Men Watch 118235\r\n', 'oyster-perpetual-1.jpg'),
 (3, 'Rolex Day Date President', 603000000, 'Rolex Day Date President Automatic Mens watch 118235 CHODRO ', 'daydate-president2-1.jpg'),
-(4, 'Rolex Datejust 36mm 116243', 359000000, 'Rolex Datejust Day-Date Automatic Men Watch 116243', 'datejust-36-1.jpg');
+(4, 'Rolex Datejust 36mm', 359000000, 'Rolex Datejust Day-Date Automatic Men Watch 116243', 'datejust-36-1.jpg');
 
 -- --------------------------------------------------------
 
@@ -275,7 +278,7 @@ ALTER TABLE `chitietsp`
 -- AUTO_INCREMENT for table `danhgiasp`
 --
 ALTER TABLE `danhgiasp`
-  MODIFY `DG_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `DG_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `hinhanh`
 --
@@ -285,12 +288,12 @@ ALTER TABLE `hinhanh`
 -- AUTO_INCREMENT for table `lienhe`
 --
 ALTER TABLE `lienhe`
-  MODIFY `LH_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `LH_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `nhanemail`
 --
 ALTER TABLE `nhanemail`
-  MODIFY `EMAIL_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `EMAIL_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `sanpham`
 --
