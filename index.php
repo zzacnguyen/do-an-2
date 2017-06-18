@@ -87,7 +87,7 @@
                 foreach($sql as $row){
                     echo '<div class="room-suite room-suite-htwo">
                 <div class="item">
-                    <div class="ro-img"><img src="front-end/images/sanpham/'.$row['SP_HINH'].'" class="img-responsive" alt=""></div>
+                    <div class="ro-img"><img src="front-end/images/sanpham/'.$row['SP_HINH'].'" class="img-responsive" alt="" width="370px" height="222px></div>
                     <div class="ro-txt">
                         <h2>'.$row['SP_TENSP'].'</h2>
                         <p>'.$row['SP_GIOITHIEU'].'</p>
