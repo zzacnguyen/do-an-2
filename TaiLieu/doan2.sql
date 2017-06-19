@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 17, 2017 at 06:44 AM
+-- Generation Time: Jun 19, 2017 at 07:23 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -50,10 +50,11 @@ CREATE TABLE `chitietsp` (
 --
 
 INSERT INTO `chitietsp` (`CTSP_ID`, `HA_ID`, `SP_ID`, `CTSP_TINHTRANG`, `CTSP_BOSUUTAP`, `CTSP_SERIES`, `CTSP_KICHTHUOC`, `CTSP_CHATLIEU`, `CTSP_KHUNG`, `CTSP_LOAIMAY`, `CTSP_LOAIDAYDEO`, `CTSP_MATQUAYSO`, `CTSP_CHONGNUOC`, `CTSP_GIOITINH`, `CTSP_CHUCNANGHIENTHI`, `CTSP_MOTA`) VALUES
-(1, 1, 1, 'Like New (99%)', 'Day-Date President', '118135chodro', '36 mm', 'Vàng hồng 18k', 'Vàng hồng 18k', 'Automatic', 'Vàng hồng 18k', 'Chocolate,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Giờ, Phút, Giây, Ngày', 'Chưa có mô tả'),
+(1, 1, 1, 'Like New (99%)', 'Day-Date President', '118135chodro', '36 mm', 'Vàng hồng 18k', 'Vàng hồng 18k', 'Automatic', 'Dây da cá sấu', 'Chocolate,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Vàng hồng 18k', 'Chưa có mô tả'),
 (2, 2, 2, 'Mới', 'Day-Date President', '118235mtdp', '36 mm', 'Vàng hồng 18k', 'Vàng hồng 18k', 'Automatic', 'Vàng hồng 18k', 'Mặt thiên thạch,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Giờ, Phút, Giây, Ngày', 'Chưa có mô tả'),
 (3, 3, 3, 'Mới', 'Day-Date President', '118235 CHODRP', '118235 CHO', 'Vàng hồng 18k', 'Vàng hồng 18k', 'Automatic', 'Vàng hồng 18k', 'Chocolate,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Vàng hồng 18k', 'Chưa có mô tả'),
-(4, 4, 4, 'Mới', 'Datejust 36 Steel/Yellow Gold', '116243 bkdj', '36 mm', 'Thép không gỉ kết hợp vàng hồng 18k', 'gắn kim cương', 'Automatic', 'thép không gỉ kết hợp vàng hồng 18k', 'màu đen,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Giờ, Phút, Giây,Ngày', 'Là một trong những sản phẩm nằm trong bộ sưu tập Datejust, thiết kế sang trọng');
+(4, 4, 4, 'Mới', 'Datejust 36 Steel/Yellow Gold', '116243 bkdj', '36 mm', 'Thép không gỉ kết hợp vàng hồng 18k', 'gắn kim cương', 'Automatic', 'thép không gỉ kết hợp vàng hồng 18k', 'màu đen,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Giờ, Phút, Giây,Ngày', 'Là một trong những sản phẩm nằm trong bộ sưu tập Datejust, thiết kế sang trọng'),
+(5, 1, 1, 'Mới', 'Cellini', '50525', '39mm', ' Vàng hồng 18K,', ' Vàng hồng 18K,', 'Automatic', 'Dây da cá sấu', 'Đang cập nhật', '100m', 'Nam', 'giờ,phút,giây,Day/Night Indicator', 'Chưa có mô tả');
 
 -- --------------------------------------------------------
 
@@ -166,10 +167,11 @@ CREATE TABLE `sanpham` (
 --
 
 INSERT INTO `sanpham` (`SP_ID`, `SP_TENSP`, `SP_GIA`, `SP_GIOITHIEU`, `SP_HINH`) VALUES
-(1, 'Rolex Day Date President', 557000000, 'Rolex Day Date President Day Date 118235 CHODRP (LIKE NEW 99%)', 'daydate-president-1.jpg'),
+(1, 'Rolex Day Date President', 555000000, 'Rolex Day Date President Day Date 118235 CHODRP (LIKE NEW 99%)', 'daydate-president-1.jpg'),
 (2, 'Rolex Oyster Perpetual', 730000000, 'Rolex Oyster Perpetual Day-Date Automatic Men Watch 118235\r\n', 'oyster-perpetual-1.jpg'),
 (3, 'Rolex Day Date President', 603000000, 'Rolex Day Date President Automatic Mens watch 118235 CHODRO ', 'daydate-president2-1.jpg'),
-(4, 'Rolex Datejust 36mm', 359000000, 'Rolex Datejust Day-Date Automatic Men Watch 116243', 'datejust-36-1.jpg');
+(4, 'Rolex Day Datejust 36mm', 359000000, 'Rolex Datejust Day-Date Automatic Men Watch 116243', 'datejust-36-1.jpg'),
+(5, 'Rolex Cellini Dual Time', 360000000, 'Rolex Cellini Dual Time Automatic Men Watch 50525', 'timthumb.jpg');
 
 -- --------------------------------------------------------
 
@@ -273,7 +275,7 @@ ALTER TABLE `tintuc`
 -- AUTO_INCREMENT for table `chitietsp`
 --
 ALTER TABLE `chitietsp`
-  MODIFY `CTSP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `CTSP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `danhgiasp`
 --
@@ -298,7 +300,7 @@ ALTER TABLE `nhanemail`
 -- AUTO_INCREMENT for table `sanpham`
 --
 ALTER TABLE `sanpham`
-  MODIFY `SP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `SP_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `taikhoan`
 --
