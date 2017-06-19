@@ -87,12 +87,12 @@
                 foreach($sql as $row){
                     echo '<div class="room-suite room-suite-htwo">
                 <div class="item">
-                    <div class="ro-img"><img src="front-end/images/sanpham/'.$row['SP_HINH'].'" class="img-responsive" alt="" width="370px" height="222px></div>
+                    <div class="ro-img"><img src="front-end/images/sanpham/'.$row['SP_HINH'].'" class="img-responsive" alt="" width="270px" height="161px"></div>
                     <div class="ro-txt">
                         <h2>'.$row['SP_TENSP'].'</h2>
                         <p>'.$row['SP_GIOITHIEU'].'</p>
                         <div class="ro-text-two">
-                            <div class="left-p-two pull-left"><a href="front-end/chitietsp.php?id='.$row['SP_ID'].'" class="res-btn">Xem thêm</a></div>
+                            <div class="left-p-two pull-left"><a href="front-end/chitietsp.php?id='.$row['SP_ID'].'" class="res-btn" target="_blank">Xem thêm</a></div>
                         </div>
 
                     </div>

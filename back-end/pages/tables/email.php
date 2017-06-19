@@ -18,9 +18,11 @@
     <div class="row">
         <div class="col-xs-12">
             <div class="box">
+<!--
                 <div class="box-header">
                     <a href="index.php?page=thememail"><button type="submit" class="btn btn-info pull-left">Thêm email</button></a>
                 </div>
+-->
                 <!-- /.box-header -->
                 <div class="box-body">
                     <table id="example1" class="table table-bordered table-striped">
@@ -28,8 +30,8 @@
                             <tr>
                                 <th>STT</th>
                                 <th>Email</th>
-                                <th>Tác vụ 1</th>
-                                <th>Tác vụ 2</th>
+<!--                                <th>Tác vụ 1</th>-->
+                                <th>Tác vụ</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -40,7 +42,7 @@
                                         echo '<tr>
                                     <td>'.$row['EMAIL_ID'].'</td>
                                     <td>'.$row['EMAIL_TEN'].'</td>
-                                    <td><a href="index.php?page=capnhatemail&id='.$row['EMAIL_ID'].'"><input type="submit" class="btn btn-info pull-right" value="Cập nhật" name="btnCapNhat"></a></td>
+                                    
                                     <td><a href="index.php?page=xoaemail&id='.$row['EMAIL_ID'].'"><input type="submit" class="btn btn-info pull-right" style="background:#dd4b39; border-color:#f43f28;" value="Xóa" name="btnXoa"></a></td>
                                 </tr>';
                                     }
@@ -51,8 +53,8 @@
                             <tr>
                                 <th>STT</th>
                                 <th>Email</th>
-                                <th>Tác vụ 1</th>
-                                <th>Tác vụ 2</th>
+<!--                                <th>Tác vụ 1</th>-->
+                                <th>Tác vụ</th>
                             </tr>
                         </tfoot>
                     </table>

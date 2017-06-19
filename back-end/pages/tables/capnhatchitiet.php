@@ -44,13 +44,13 @@
 
 <section class="content-header">
     <h1>
-        Tên loại sản phẩm
+        Cập nhật chi tiết sản phẩm
         <small></small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
         <li><a href="#">Sản phẩm</a></li>
-        <li class="active">Nhập sản phẩm</li>
+        <li class="active">Cập nhật chi tiết sản phẩm</li>
     </ol>
 </section>
 

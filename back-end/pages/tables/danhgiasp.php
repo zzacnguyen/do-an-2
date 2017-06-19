@@ -4,12 +4,12 @@
 
 <section class="content-header">
     <h1>
-        Liên hệ của khách hàng
+        Đánh giá của khách hàng
         <small></small>
     </h1>
     <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
-        <li class="active"><a href="#">Liên hệ</a></li>
+        <li class="active"><a href="#">Đánh giá</a></li>
     </ol>
 </section>
 

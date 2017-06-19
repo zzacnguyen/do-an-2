@@ -20,8 +20,7 @@
     </h1>
     <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ</a></li>
-        <li><a href="#">Sản phẩm</a></li>
-        <li class="active">Nhập liên hệ</li>
+        <li class="active">Xóa liên hệ</li>
     </ol>
 </section>
 
