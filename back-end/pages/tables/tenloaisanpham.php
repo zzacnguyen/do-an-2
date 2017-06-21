@@ -45,7 +45,7 @@
                   <td>'.$row['SP_TENSP'].'</td>
                   <td>'.$row['SP_GIA'].'</td>
                   <td>'.$row['SP_GIOITHIEU'].'</td>
-                  <td>'.$row['SP_HINH'].'</td>
+                  <td><img src="../../../front-end/images/sanpham/'.$row['SP_HINH'].'"  height="50px" width="80px"></td>
                   <td><a href="index.php?page=capnhatsanpham&id='.$row['SP_ID'].'"><input type="submit" class="btn btn-info pull-right" value="Cập nhật" name="btnCapNhat"></a></td>
                   <td><a href="index.php?page=xoasanpham&id='.$row['SP_ID'].'"><input type="submit" class="btn btn-info pull-right" style="background:#dd4b39; border-color:#f43f28;" value="Xóa"/></a></td>
                 </tr>';
