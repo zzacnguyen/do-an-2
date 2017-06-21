@@ -17,7 +17,9 @@
                     alert("Thêm thất bại");
                 </script>';
             } 
-        }
+        }else {
+             echo '<script>alert("Email nhập vào không được bỏ trống");</script>';
+         }
 ?>     
 
      <section class="content-header">

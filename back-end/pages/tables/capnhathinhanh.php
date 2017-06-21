@@ -46,7 +46,9 @@
         } 
     
         }
-}
+}else {
+             echo '<script>alert("Thông tin nhập vào không được bỏ trống");</script>';
+         }
 
     }
 ?>

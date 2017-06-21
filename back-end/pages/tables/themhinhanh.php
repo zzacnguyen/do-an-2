@@ -41,7 +41,11 @@ if(isset($_POST['submit'])){
         } 
     
         }
-}
+} else {
+        echo '<script>
+                    alert("Dữ liệu không được để trống");
+                </script>';
+    }
 }
 ?>
 
@@ -72,31 +76,31 @@ if(isset($_POST['submit'])){
                             <label for="exampleInputFile">Chọn ảnh 1</label>
                             <input type="file" id="exampleInputFile" name="hinhanh1">
 
-                            <p class="help-block">Kích thước hình ảnh 270x162.</p>
+                            <p class="help-block">Kích thước hình ảnh 370x222.</p>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputFile">Chọn ảnh 2</label>
                             <input type="file" id="exampleInputFile" name="hinhanh2">
 
-                            <p class="help-block">Kích thước hình ảnh 270x162.</p>
+                            <p class="help-block">Kích thước hình ảnh 370x222.</p>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputFile">Chọn ảnh 3</label>
                             <input type="file" id="exampleInputFile" name="hinhanh3">
 
-                            <p class="help-block">Kích thước hình ảnh 270x162.</p>
+                            <p class="help-block">Kích thước hình ảnh 370x222.</p>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputFile">Chọn ảnh 4</label>
                             <input type="file" id="exampleInputFile" name="hinhanh4">
 
-                            <p class="help-block">Kích thước hình ảnh 270x162.</p>
+                            <p class="help-block">Kích thước hình ảnh 370x222.</p>
                         </div>
                         <div class="form-group">
                             <label for="exampleInputFile">Chọn ảnh 5</label>
                             <input type="file" id="exampleInputFile" name="hinhanh5">
 
-                            <p class="help-block">Kích thước hình ảnh 270x162.</p>
+                            <p class="help-block">Kích thước hình ảnh 370x222.</p>
                         </div>
                     </div>
                     <!-- /.box-body -->

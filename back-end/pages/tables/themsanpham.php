@@ -28,6 +28,10 @@
                         }  
                     }
                 }
+            }else {
+                echo '<script>
+                    alert("Dữ liệu không được để trống");
+                </script>';
             }
         }
 ?>
@@ -72,7 +76,7 @@
                             <label for="exampleInputFile">Chọn ảnh</label>
                             <input type="file" id="exampleInputFile" name="hinhanh">
 
-                            <p class="help-block">Kích thước hình ảnh 370x222.</p>
+                            <p class="help-block">Kích thước hình ảnh 270x162.</p>
                         </div>
                     </div>
                     <!-- /.box-body -->

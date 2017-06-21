@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 19, 2017 at 07:23 PM
+-- Generation Time: Jun 21, 2017 at 05:24 AM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -54,7 +54,7 @@ INSERT INTO `chitietsp` (`CTSP_ID`, `HA_ID`, `SP_ID`, `CTSP_TINHTRANG`, `CTSP_BO
 (2, 2, 2, 'Mới', 'Day-Date President', '118235mtdp', '36 mm', 'Vàng hồng 18k', 'Vàng hồng 18k', 'Automatic', 'Vàng hồng 18k', 'Mặt thiên thạch,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Giờ, Phút, Giây, Ngày', 'Chưa có mô tả'),
 (3, 3, 3, 'Mới', 'Day-Date President', '118235 CHODRP', '118235 CHO', 'Vàng hồng 18k', 'Vàng hồng 18k', 'Automatic', 'Vàng hồng 18k', 'Chocolate,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Vàng hồng 18k', 'Chưa có mô tả'),
 (4, 4, 4, 'Mới', 'Datejust 36 Steel/Yellow Gold', '116243 bkdj', '36 mm', 'Thép không gỉ kết hợp vàng hồng 18k', 'gắn kim cương', 'Automatic', 'thép không gỉ kết hợp vàng hồng 18k', 'màu đen,thanh chỉ giờ gắn kim cương', '100m', 'Nam', 'Giờ, Phút, Giây,Ngày', 'Là một trong những sản phẩm nằm trong bộ sưu tập Datejust, thiết kế sang trọng'),
-(5, 1, 1, 'Mới', 'Cellini', '50525', '39mm', ' Vàng hồng 18K,', ' Vàng hồng 18K,', 'Automatic', 'Dây da cá sấu', 'Đang cập nhật', '100m', 'Nam', 'giờ,phút,giây,Day/Night Indicator', 'Chưa có mô tả');
+(5, 5, 5, 'Mới', 'Cellini', '50525', '39mm', ' Vàng hồng 18K,', ' Vàng hồng 18K,', 'Automatic', 'Dây da cá sấu', 'Đang cập nhật', '100m', 'Nam', 'Dây da cá sấu', 'Chưa có mô tả');
 
 -- --------------------------------------------------------
 
@@ -101,7 +101,8 @@ INSERT INTO `hinhanh` (`HA_ID`, `HA_HINH1`, `HA_HINH2`, `HA_HINH3`, `HA_HINH4`, 
 (1, 'daydate-president-2.jpg', 'daydate-president-3.jpg', 'daydate-president-5.jpg', 'daydate-president-2.jpg', 'daydate-president-3.jpg'),
 (2, 'oyster-perpetual-2.jpg', 'oyster-perpetual-3.jpg', 'oyster-perpetual-4.jpg', 'oyster-perpetual-2.jpg', 'oyster-perpetual-3.jpg'),
 (3, 'daydate-president2-2.jpg', 'daydate-president2-3.jpg', 'daydate-president2-4.jpg', 'daydate-president2-2.jpg', 'daydate-president2-3.jpg'),
-(4, 'datejust-36-2.jpg', 'datejust-36-3.jpg', 'datejust-36-4.jpg', 'datejust-36-5.jpg', 'datejust-36-6.jpg');
+(4, 'datejust-36-2.jpg', 'datejust-36-3.jpg', 'datejust-36-4.jpg', 'datejust-36-5.jpg', 'datejust-36-6.jpg'),
+(5, 'cellini-01.jpg', 'cellini-02.jpg', 'cellini-03.jpg', 'cellini-04.jpg', 'cellini-05.jpg');
 
 -- --------------------------------------------------------
 
@@ -285,7 +286,7 @@ ALTER TABLE `danhgiasp`
 -- AUTO_INCREMENT for table `hinhanh`
 --
 ALTER TABLE `hinhanh`
-  MODIFY `HA_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `HA_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 --
 -- AUTO_INCREMENT for table `lienhe`
 --

@@ -37,7 +37,9 @@
                     alert("Thêm thất bại");
                 </script>';
             }  
-    }
+    }else {
+             echo '<script>alert("Thông tin nhập vào không được bỏ trống");</script>';
+         }
     
     }
 ?>
@@ -85,11 +87,9 @@
                             <select class="form-control" name="mahinh">
                                <?php 
                                 $hinhanh = $hinhanh->get_list("SELECT * FROM `hinhanh`");
-                                foreach($hinhanh as $row1){
-                                    if($query['HA_ID'] == $row1['HA_ID']){
+                                foreach($hinhanh as $row1){                                
                                          echo '<option value="'.$row1['HA_ID'].'">'.$row1['HA_HINH1'].'</option>';
-                                        break;
-                                    }
+     
                                 }
                                 ?>  
                             </select>

@@ -52,6 +52,7 @@
             }
         
     }
+         
 ?>
 
 <section class="content-header">
