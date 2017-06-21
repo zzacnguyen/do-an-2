@@ -230,7 +230,7 @@
                             <div class="overlay">
                                 <div class="text1">*áp dụng có điều kiện*</div>
                                 <div class="offertext1">
-                                    <p><span class="off-txt">Giảm giá 10%</span> <span class="winter-txt">Sự kiện<br></span>MÙA HÈ</p </div>
+                                    <p><span class="off-txt">Giảm giá 10%</span> <span class="winter-txt">Sự kiện<br></span>MÙA HÈ</p> </div>
 
                                 </div>
 

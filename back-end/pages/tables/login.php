@@ -1,7 +1,7 @@
 <?php 
     $taikhoan = isset($_POST['taikhoan'])?$_POST['taikhoan']:'';
     $matkhau =  isset($_POST['matkhau'])?$_POST['matkhau']:'';
-
+    
     if(isset($_POST['submit'])){
         if(!empty($taikhoan) || !empty($matkhau)){
             if($taikhoan == "admin" && $matkhau == "admin"){
