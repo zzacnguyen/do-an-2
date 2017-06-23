@@ -85,7 +85,7 @@ if (isset($_POST['submit'])) {
 					<div class="box-body">
 
 						<div class="form-group">
-							<label>TÃªn sáº£n pháº©m</label> <select class="form-control"
+							<label>Tên sản phẩm</label> <select class="form-control"
 								name="tensp">
                                <?php
                             foreach ($sanpham as $row) {
@@ -98,7 +98,7 @@ if (isset($_POST['submit'])) {
                             </select>
 						</div>
 						<div class="form-group">
-							<label>MÃ£ hÃ¬nh</label> <select class="form-control"
+							<label>Mã hình</label> <select class="form-control"
 								name="mahinh">
                                <?php
                             $hinhanh = $hinhanh->get_list("SELECT * FROM `hinhanh`");
