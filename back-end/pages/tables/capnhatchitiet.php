@@ -111,7 +111,7 @@ if (isset($_POST['submit'])) {
 						<div class="form-group">
 							<label for="exampleInputEmail1">Tình trạng</label> <input
 								type="text" class="form-control" id="exampleInputEmail1"
-								placeholder="TÃ¬nh tráº¡ng" name="tinhtrang"
+								placeholder="Tình trạng" name="tinhtrang"
 								value="<?php echo $query['CTSP_TINHTRANG'] ?>">
 						</div>
 						<div class="form-group">
