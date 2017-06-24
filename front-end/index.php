@@ -92,7 +92,7 @@
                         <h2>'.$row['SP_TENSP'].'</h2>
                         <p>'.$row['SP_GIOITHIEU'].'</p>
                         <div class="ro-text-two">
-                            <div class="left-p-two pull-left"><a href="chitietsp.php?id='.$row['SP_ID'].'" class="res-btn">Xem thêm</a></div>
+                            <div class="left-p-two pull-left"><a href="chitietsp.php?id='.$row['SP_ID'].'" class="res-btn" target="_blank">Xem thêm</a></div>
                         </div>
 
                     </div>
@@ -113,10 +113,10 @@
             <div class="col-lg-6 col-md-6 activities-cont">
 
                 <div class="sec-header3">
-                    <h2>Các dịch vụ của công ty</h2>
-                    <h3>Công ty cung cấp các dịch vụ kèm theo khi mua sản phẩm</h3>
+                    <h2>Các dịch vụ của cửa hàng</h2>
+                    <h3>Cửa hàng cung cấp các dịch vụ kèm theo khi mua sản phẩm</h3>
                 </div>
-                <p>Công ty cung cấp dịch vụ bảo hành sản phẩm, thay pin và bao gồm các dịch vụ khác khi khách hàng mua bất kì một sản phẩm của công ty</p>
+                <p>Cửa hàng cung cấp dịch vụ bảo hành sản phẩm, thay pin và bao gồm các dịch vụ khác khi khách hàng mua bất kì một sản phẩm của cửa hàng</p>
 
                 <a href="lienhe.php?page=lienhe" class="res-btn">Liên hệ<i class="fa fa-arrow-right"></i></a>
 
@@ -199,7 +199,7 @@
             <div class="col-md-4 our-offer-left">
                 <div class="sec-header3">
                     <h2>Thông tin ưu đãi</h2>
-                    <h3>Công ty cung cấp các chương trình khuyến mãi cho khách hàng</h3>
+                    <h3>Cửa hàng cung cấp các chương trình khuyến mãi cho khách hàng</h3>
                 </div>
                 <p>Đến với chúng tôi bạn sẽ được cung cấp các dịch vụ hiện đại</p>
                 <p>Các ưu đãi dành cho bạn khi mua sản phẩm của chúng tôi. </p>
