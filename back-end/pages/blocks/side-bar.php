@@ -46,6 +46,7 @@
               }
               ?>
           </ul>
+          
         </li>
         <li class="treeview">
           <a href="../tables/index.php?page=danhgiasp">
@@ -64,6 +65,13 @@
         <li class="treeview">
           <a href="../tables/index.php?page=email">
             <i class="fa fa-envelope"></i> <span>Nhận email</span>
+            <span class="pull-right-container">
+            </span>
+          </a>
+        </li>
+        <li class="treeview">
+          <a href="../../../index.php">
+            <i class="fa fa-sign-out"></i> <span>Đăng xuất</span>
             <span class="pull-right-container">
             </span>
           </a>
